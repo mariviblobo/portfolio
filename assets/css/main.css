@@ -1,0 +1,114 @@
+body {
+    min-height: 100vh;
+    background-color: #935d8c;
+    background-image: url("../images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+    /* background-image: linear-gradient(45deg, #e37682 15%, #5f4d93 85%); */
+    /* background-image: linear-gradient(215deg, #330152 15%, #630675 50%, #fc8650); */
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-size: 17pt;
+    font-weight: 300;
+}
+
+nav-link {
+    color: rgba(0, 0, 0, 0.65);
+    text-decoration: none;
+}
+
+.about {
+    font-size: 15pt;
+}
+
+.about,
+.projects,
+.work,
+.contact {
+    padding: 3rem;
+}
+
+.nav {
+
+}
+
+.contact-btn {
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 100%;
+    font-size: 25px;
+}
+
+@media screen and (max-width: 1680px) {
+    body {
+        font-size: 15pt;
+    }
+
+    .about {
+        font-size: 15pt;
+    }
+
+    .about,
+    .projects,
+    .work,
+    .contact {
+        padding: 3rem;
+    }
+
+    .contact-btn {
+        width: 3.5rem;
+        height: 3.5rem;
+        /* border-radius: 100%;
+        font-size: 25px; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    body {
+        font-size: 13pt;
+    }
+
+    .about {
+        /* text-align: center; */
+        font-size: 13pt;
+    }
+
+    .about,
+    .projects,
+    .work,
+    .contact {
+        padding: 3rem;
+    }
+
+    .contact-btn {
+        width: 3.5rem;
+        height: 3.5rem;
+        border-radius: 100%;
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    body {
+        font-size: 12pt;
+    }
+
+    .about {
+        text-align: center;
+        font-size: 12pt;
+    }
+
+    .about,
+    .projects,
+    .work,
+    .contact {
+        padding: 1.5rem;
+    }
+
+    .contact-btn {
+        width: 3.5rem;
+        height: 3.5rem;
+        border-radius: 100%;
+        font-size: 25px;
+    }
+}
